@@ -1,0 +1,146 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnggotaViewer">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.pln.decki.sijali.customfont.HelloBasicTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detail Anggota"
+                android:textSize="18sp"
+                android:gravity="center"/>
+            <com.pln.decki.sijali.customfont.KOActivista
+                android:id="@+id/namalengkapjudul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/statussiap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:background="@drawable/kiri_putih"
+                    android:text="Siap" />
+                <Button
+                    android:id="@+id/statustidaksiap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:background="@drawable/kanan_putih"
+                    android:text="Tidak Siap" />
+            </LinearLayout>
+            <com.pln.decki.sijali.customfont.KOActivista
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Lengkap"
+                android:textStyle="bold"/>
+            <com.pln.decki.sijali.customfont.HelloBasicTextView
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:id="@+id/namalengkap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow" />
+            <com.pln.decki.sijali.customfont.KOActivista
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Panggilan"
+                android:textStyle="bold"/>
+            <com.pln.decki.sijali.customfont.HelloBasicTextView
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:id="@+id/namapanggilan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"/>
+            <com.pln.decki.sijali.customfont.KOActivista
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIP"
+                android:textStyle="bold"/>
+            <com.pln.decki.sijali.customfont.HelloBasicTextView
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:id="@+id/nip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow" />
+            <com.pln.decki.sijali.customfont.KOActivista
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jabatan"
+                android:textStyle="bold"/>
+            <com.pln.decki.sijali.customfont.HelloBasicTextView
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:id="@+id/jabatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"/>
+            <com.pln.decki.sijali.customfont.KOActivista
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No. Handphone"
+                android:textStyle="bold"/>
+            <com.pln.decki.sijali.customfont.HelloBasicTextView
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:id="@+id/nohp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow" />
+            <com.pln.decki.sijali.customfont.KOActivista
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keterangan"
+                android:textStyle="bold"/>
+            <com.pln.decki.sijali.customfont.HelloBasicTextView
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:id="@+id/keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin">
+                <com.pln.decki.sijali.customfont.HelloBasicButton
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hapus"
+                    android:background="@drawable/kiri_merah"
+                    android:text="Hapus"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

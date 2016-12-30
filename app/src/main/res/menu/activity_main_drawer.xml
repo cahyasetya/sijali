@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/jadwalpemeliharaan"
+            android:title="@string/jadwalpemeliharaan" />
+        <item
+            android:id="@+id/dataanggota"
+            android:title="@string/dataanggota" />
+        <item
+            android:id="@+id/pengaturan"
+            android:title="@string/pengaturan" />
+        <item
+            android:id="@+id/tentang"
+            android:title="@string/tentang" />
+    </group>
+
+</menu>

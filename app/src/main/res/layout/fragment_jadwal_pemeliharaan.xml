@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pln.decki.sijali.JadwalPemeliharaan">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+            <com.pln.decki.sijali.customfont.HelloBasic
+                android:id="@+id/bulan"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="Bulan"
+                android:gravity="center"
+                android:background="@drawable/kiri_merah"/>
+            <com.pln.decki.sijali.customfont.HelloBasic
+                android:id="@+id/tahun"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="Tahun"
+                android:background="@drawable/tengah_biru" />
+            <com.pln.decki.sijali.customfont.HelloBasicButton
+                android:id="@+id/caributton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Cari"
+                android:background="@drawable/kanan_hijau"/>
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/pemeliharaanrecyclerview"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+</FrameLayout>

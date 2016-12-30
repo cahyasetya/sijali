@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">SI JALI</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="jadwalpemeliharaan">Jadwal Pemeliharaan</string>
+    <string name="dataanggota">Data Anggota</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="basecamp_semarang">Basecamp Semarang</string>
+    <string name="daftar">Daftar</string>
+    <string name="datadiri">Data Diri</string>
+    <string name="namalengkap">Nama Lengkap</string>
+    <string name="nip">NIP</string>
+    <string name="jabatan">Jabatan</string>
+    <string name="nohp">No. HP</string>
+    <string name="dataakun">Data Akun</string>
+    <string name="namapanggilan">Nama Panggilan</string>
+    <string name="tentang">Tentang</string>
+    <string name="deskripsitentang">September 2016\nPrototype Perangkat Lunak STO PLN 53\nSistem Informasi Jadwal Pemeliharaan.\nAPP Semarang-Basecamp Semarang.\nUnit Transmisi Jawa Bagian Tengah.\nPT. PLN.\nDecki. Maulvi\nDeveloper\nCahya @2016.</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="jabatan">
+        <item>Junior Technician JARGI</item>
+        <item>Junior Engineer JARGI</item>
+        <item>Asistent Engineer JARGI</item>
+        <item>Enginner K2K3</item>
+        <item>Supervisor HAR. PROT</item>
+        <item>Supervisor HAR. GI</item>
+        <item>Supervisor HAR. JAR</item>
+        <item>Supervisor GI</item>
+    </string-array>
+
+    <string-array name="supervisorgi">
+        <item>Supervisor GI Tambaklorok</item>
+        <item>Supervisor GI Waleri</item>
+        <item>Supervisor GIS Simpanglima</item>
+        <item>Supervisor GI Kaliwungu</item>
+        <item>Supervisor GIS Randugarut</item>
+        <item>Supervisor GI Krapyak</item>
+        <item>Supervisor GIS Kalisari</item>
+        <item>Supervisor GI Pandean Lamper</item>
+        <item>Supervisor GI Sayung</item>
+        <item>Supervisor GI BSB</item>
+        <item>Supervisor GI Srondol</item>
+        <item>Supervisor GIS Piyung</item>
+        <item>Supervisor GITET Ungaran</item>
+    </string-array>
+</resources>
